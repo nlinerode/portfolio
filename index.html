@@ -5,18 +5,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NL Web Design | Home</title>
-  <link rel="stylesheet" href="/css/master.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/master.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto|Roboto+Mono|Slabo+27px" rel="stylesheet">
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="row">
+    <nav>
+      <ul>
+        <li class="col-1"><a href="#">About</a></li>
+        <li class="col-1"><a href="#">Projects</a></li>
+        <li class="col-1"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="col-9">NL Web Design | Simple Web Beauty</h1>
+    </header>
+  </div>
+
+
+  <section class="opening">
+    <div class="row">
+      <h1 class="col-12">Simple. Elegant. Web Design.</h1>
+    </div>
+    <div class="row">
+      <p class="col-12">Looking for that simple, yet beautiful web page for yourself or your business? You've come to the right place.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-4">
+        <h3>Simple, Elegant Design</h3>
+      </div>
+      <div class="col-4">
+        <h3>Still Affordable</h3>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </section>
 
   <section class="about">
 
@@ -30,6 +57,7 @@
 
   </section>
 
+  <footer>Designed by Nathan Linerode &copy;2017</footer>
   <script src="scripts/script.js" charset="utf-8"></script>
 </body>
 

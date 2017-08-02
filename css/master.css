@@ -1,0 +1,47 @@
+
+@media screen and (max-width:210px), (min-width:210px) {
+  *{
+    box-sizing: border-box;
+  }
+html{
+  min-height: 100%;
+  position: relative;;
+}
+
+body{
+  margin: 0 0 8%;
+}
+
+  h1{
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    float:left;
+  }
+  li a {
+    /*box-sizing: border-box;*/
+    border: 1px solid green;
+    display: block;
+    padding: 8px;
+    /*width: 8.33%;*/
+  }
+
+  footer{
+    border:1px solid purple;
+    bottom: 0;
+    height: 8%;
+    left: 0;
+    overflow:hidden;
+    padding: .9rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}
