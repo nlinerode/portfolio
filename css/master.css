@@ -1,41 +1,88 @@
 
 @media screen and (max-width:210px), (min-width:210px) {
   *{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
     box-sizing: border-box;
   }
 html{
   min-height: 100%;
   position: relative;;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 body{
+  background-color: #666;
   margin: 0 0 8%;
 }
 
+header{
+  background-color: #006a25;
+  border-bottom: 3px solid black;
+  height: 100%;
+}
+/*h1 seelctors*/
   h1{
     margin: 0;
   }
+  .brand{
+    text-align: right;
+  }
+  h1 a{
+    text-decoration: none;
+  }
+  .highlightBrand{
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.7rem;
+    /*text-decoration: none;*/
+  }
 
+/*navigation selectors*/
   ul {
     list-style: none;
     margin: 0;
+    overflow:hidden;
     padding: 0;
   }
 
   li{
     float:left;
+    margin-left: 6%;
   }
   li a {
-    /*box-sizing: border-box;*/
-    border: 1px solid green;
+    color: #fff;
     display: block;
+    height: 100%;
+    line-height: 2.2rem;
+    /*margin-left: 5px;*/
     padding: 8px;
-    /*width: 8.33%;*/
+    text-align: center;
+    text-decoration: none;
   }
 
+  li a:hover{
+    text-shadow: 7px 5px 8px black;
+  }
+  li a:active {
+    color:#f9f9f9;
+    transform: translateY(1px) translateX(1px);
+  }
+
+  .selected{
+    /*background-color: black;*/
+  }
+
+/*opening section*/
+.opening{
+
+  text-align: center;
+}
   footer{
-    border:1px solid purple;
+    background-color: #006a25;
+    border-top: 3px solid black;
     bottom: 0;
+    color: #fff;
     height: 8%;
     left: 0;
     overflow:hidden;
@@ -43,5 +90,10 @@ body{
     position: absolute;
     text-align: center;
     width: 100%;
+  }
+  footer a {
+    color:white;
+    float:right;
+    text-decoration: none;
   }
 }
